@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Freelancers & Services | FreelanceHub</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="navbar"><div class="container nav-container">
+  <a href="index.html" class="logo">FreelanceHub<span>.</span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a><a href="find-freelancers.html" class="active">Find Freelancers</a>
+    <a href="about.html">About</a><div class="auth-buttons"><a href="#" class="btn btn-ghost">Login</a><a href="#" class="btn btn-primary">Register</a></div>
+  </nav><button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+</div></header>
+<main>
+  <section class="page-header"><div class="container">
+    <p class="eyebrow">FreelanceHub marketplace</p><h1>Find the right talent for your project</h1>
+    <p>Explore skilled freelancers and services, compare ratings and starting prices, and choose the right match.</p>
+  </div></section>
+  <section class="browse-section container">
+    <div class="browse-toolbar">
+      <div><label for="browseSearch">Search freelancers or services</label><input id="browseSearch" type="search" placeholder="Try web design, developer, logo..."></div>
+      <div><label for="categoryFilter">Category</label><select id="categoryFilter">
+        <option value="All">All categories</option><option value="Web Development">Web Development</option>
+        <option value="Graphic Design">Graphic Design</option><option value="Data Analysis">Data Analysis</option>
+        <option value="Digital Marketing">Digital Marketing</option><option value="Mobile App Development">Mobile App Development</option>
+        <option value="Writing & Translation">Writing & Translation</option>
+      </select></div>
+      <div><label for="sortFilter">Sort results</label><select id="sortFilter">
+        <option value="recommended">Recommended</option><option value="price-low">Price: Low to High</option>
+        <option value="price-high">Price: High to Low</option><option value="rating">Highest Rated</option>
+      </select></div>
+    </div>
+    <div class="results-line"><span id="resultsCount">Loading services...</span><span>Freelancers ready to work with you</span></div>
+    <div class="marketplace-grid" id="browseGrid" aria-live="polite"></div>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-content">
+  <div class="footer-brand"><a href="index.html" class="logo">FreelanceHub<span>.</span></a><p>Good people. Great work. Better possibilities.</p></div>
+  <div class="footer-links"><h4>Discover</h4><a href="find-freelancers.html">Find Freelancers</a><a href="about.html">About Us</a></div>
+  <div class="footer-social"><h4>Share</h4><a href="#">LinkedIn</a><a href="#">Facebook</a></div>
+</div><div class="footer-bottom"><p>&copy; 2026 FreelanceHub Marketplace. All rights reserved.</p></div></footer>
+<script src="js/script.js"></script>
+</body></html>
